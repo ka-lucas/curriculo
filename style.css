@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+@media (max-width:700px) {
+    div .imagem {
+        padding: 20px 0px 100px 130px;
+
+
+    }
+    div .texto{
+        margin-top: 60%;
+    }
+}
+
+.menu {
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 41px;
+    margin-left: 150px;
+    display: flex;
+
+}
+
+.content {
+    height: 20em;
+    position: relative;
+    top: 30%;
+    left: 60%;
+    margin-right: -25%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    margin: 0;
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    top: 50%;
+    left: 60%;
+    margin-right: -40%;
+    transform: translate(-50%, -50%);
+    float: right;
+
+}
+
+.imagem {
+    top: 40%;
+    align-items: center;
+    max-width: 200px;
+    max-height: 700px;
+    margin-right: 20%;
+    position: center;
+    float: left;
+    margin-left: 2%;
+
+
+}
+
+.background {
+    background: white;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    float: 100%;
+    background-color: rgb(222, 190, 202);
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.menu a:hover {
+    color: #f6ebe4;
+    border-bottom: solid 1px #d1a4dd;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.resumo{
+   margin-left: 20%;
+   margin-right: 20%;
+
+}
+.formacao{
+    margin-left: 20%;
+}
+.habilidades{
+    margin-left: 20%;
+}
+.aplicacoes{
+    margin-left: 20%;
+}
+.hobbies{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.form{
+    margin-left: 30%;
+    margin-right: 30%;
+    width:400px;
+    padding:1em;
+
+    border-radius:1em;
+}
+.form label{
+display: inline-block;
+width:90px;
+text align: center;
+}
+.form button{
+    margin-left: .5em;
+}
