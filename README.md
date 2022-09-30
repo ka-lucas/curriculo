@@ -1,4 +1,4 @@
-# Planets Control
+# Curriculo
 Curriculo é uma aplicacao utilizando css e html afim de refazer o curriculo tradicional utilizando programação.
 
 # Usage
